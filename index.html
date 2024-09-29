@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Example</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="bg-blue-500 text-white p-4 rounded">
+        Hello Tailwind!
+    </div>
+    <div class="container mx-auto">
+        <!-- เนื้อหา -->
+        <div class="text-base md:text-lg lg:text-xl">
+            Responsive Text <button class="btn"> button </button>
+        </div>
+        <div class="flex">
+            <div class="flex-1">คอลัมน์ 1</div>
+            <div class="flex-1">คอลัมน์ 2</div>
+        </div>
+        <div class="grid grid-cols-3 gap-4">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="bg-blue-500">
+            <!-- เนื้อหา -->
+             content
+        </div>
+        <p class="text-red-600">
+            ข้อความสีแดง
+          </p>
+        <div class="border border-gray-300">
+            <!-- เนื้อหา -->
+            content
+        </div>
+        <div class="mt-4 mb-2 ml-3 mr-5">
+            poem1
+        </div>
+        <div class="p-4 px-2 py-6">
+            poem2
+        </div>
+        <div class="flex gap-4">
+            <div>Item 1</div>
+            <div>Item 2</div>
+        </div>
+        <div class="w-1/2">
+            sizing 1/2
+        </div>
+        <div class="h-64">
+            Content for h-64
+        </div>
+        <div class="max-w-md">
+            content for max-w-md
+        </div>
+          
+        <h1 class="text-3xl">หัวข้อขนาดใหญ่</h1>
+        <p class="text-sm">ข้อความขนาดเล็ก</p>
+        <p class="text-center">ข้อความกึ่งกลาง</p>
+        <p class="text-right">ข้อความชิดขวา</p>
+
+        <button class="rounded-full bg-green-500 text-white px-4 py-2">
+            ปุ่มโค้งเต็ม
+          </button>
+          <div class="rounded-lg border border-gray-400">
+            content
+            <!-- เนื้อหา -->
+          </div>
+          
+          <div class="border-2 border-blue-600">
+            <!-- เนื้อหา --> border
+          </div>
+          <div class="shadow">
+            <!-- เนื้อหา -->
+             shadow
+          </div>
+          <div class="shadow-lg">
+            <!-- เนื้อหา -->
+             shadow-lg
+          </div>
+          
+          <div class="hidden md:block">
+            <!-- จะแสดงเฉพาะเมื่อหน้าจอมีขนาด md ขึ้นไป -->
+             disply > md
+          </div>
+          <div class="flex items-center justify-between">
+            <div>Item 1</div>
+            <div>Item 2</div>
+          </div>
+          
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            ปุ่มโฮเวอร์
+          </button>
+          
+              
+          <input class="border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200" type="text" placeholder="โฟกัสที่นี่">
+             
+          <div class="text-sm sm:text-base md:text-lg lg:text-xl">
+            ข้อความที่ปรับขนาดตามหน้าจอ
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            ส่วนนี้ทำอะไร
+            <!-- เนื้อหา -->
+          </div>
+          
+
+          <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+            <img class="w-full" src="https://via.placeholder.com/400x200" alt="Profile Image">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">ชื่อผู้ใช้</div>
+              <p class="text-gray-700 text-base">
+                นี่คือคำอธิบายสั้นๆ เกี่ยวกับผู้ใช้หรือโปรไฟล์ของเขา
+              </p>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+              <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#TailwindCSS</span>
+              <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#CSS</span>
+              <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#WebDevelopment</span>
+            </div>
+          </div>
+          
+
+    </div>
+</body>
+</html>
